@@ -63,7 +63,7 @@ public class AutomanagerApplication {
 
 			cliente.getDocumentos().add(rg);
 			cliente.getDocumentos().add(cpf);
-
+			
 			repositorio.save(cliente);
 		}
 	}
